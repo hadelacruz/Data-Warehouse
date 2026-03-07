@@ -10,6 +10,16 @@ Extrae datos de:
 
 Y los integra en una única tabla: `warehouse.paises_turismo`
 
+## Preparar datos (opcional)
+
+Si necesitas crear las tablas e insertar datos en PostgreSQL, ejecuta:
+
+```bash
+psql -h localhost -U postgres -d lab05_SQL -f db.sql
+```
+
+**Nota:** Asegúrate de ajustar las rutas de los archivos CSV dentro de `db.sql` si están en otra ubicación.
+
 ## Cómo ejecutar
 
 ### 1. Instalar dependencias
